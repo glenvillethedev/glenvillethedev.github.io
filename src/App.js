@@ -4,6 +4,8 @@ function App() {
       <header className="App-header">
         <p>
           Initial Commit.
+          <hr />
+          Second Build.
         </p>
       </header>
     </div>
