@@ -71,7 +71,10 @@ function Projects() {
               <Chip label="mongodb" color="primary" size="small" />
             </Stack>
             <Typography sx={{ typography: { xs: "body2", sm: "body1" }, textAlign: "justify" }}>
-              This project is developed using the MERN stack that lets users register, log in (JWT), and manage their workouts. With a sleek MUI-powered UI, users can add, edit, and track exercises, reps, and weights—all in one place. 💪
+              This app helps users track and manage their workout routines. 
+              I built this app with the goal of diving deeper into the MERN stack. 
+              I created reusable React components and used React Router for smooth navigation. 
+              For security, I implemented JWT authentication for API access. The UI is sleek and mobile-friendly, thanks to MUI.💪
             </Typography>
             <Stack
               direction="row"
@@ -162,7 +165,11 @@ function Projects() {
               <Chip label="sqlserver" color="primary" size="small" />
             </Stack>
             <Typography sx={{ typography: { xs: "body2", sm: "body1" }, textAlign: "justify"}}>
-              A Microsoft-based web app built with ASP.NET Core MVC and SQL Server (EF Core). It lets users register, log in (Identity), and manage their expenses effortlessly. With a clean, user-friendly interface, tracking spending has never been easier! 💰📊
+              This app helps users manage their personal expenses and export reports as PDF or CSV file. 
+              I developed this app to strengthen my skills in C# and ASP.NET Core. 
+              I used ASP.NET Core MVC with Entity Framework Core for database management and integrated Identity for authentication. 
+              For logging, I used Serilog, and for report generation, I utilized Rotativa and CSVHelper. 
+              The UI is modern, responsive, and built with Bootstrap. 💰📊
             </Typography>
             <Stack
               direction="row"
@@ -245,8 +252,10 @@ function Projects() {
               <Chip label="sqlserver" color="primary" size="small" />
             </Stack>
             <Typography sx={{ typography: { xs: "body2", sm: "body1" }, textAlign: "justify" }}>
-              This app is the admin panel for Expenses Tracker, built with ASP.NET Core WebAPI and ReactJS. It allows administrators to manage users efficiently. 
-              It features JWT authentication with refresh tokens using ASP.NET Core Identity, enabling secure login and role-based access. 🚀📊
+              It's an admin dashboard for managing users in the Expenses Tracker app. 
+              I built this app to showcase my skills in creating SPAs and integrating it with Web APIs. 
+              I developed reusable React components, implemented React Router for routing, and used Axios with JWT for secure API access. 
+              The backend is built with ASP.NET Core WebAPI, utilizing Identity for authentication, EF Core for database management, and Serilog for logging. 🚀📊
             </Typography>
             <Stack
               direction="row"
