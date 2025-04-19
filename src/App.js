@@ -14,6 +14,7 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
+import Certificates from "./components/Certificates";
 
 let theme = createTheme();
 theme = responsiveFontSizes(theme);
@@ -46,6 +47,10 @@ function App() {
         <CustomDivider label={"Education"} />
 
         <Education />
+
+        <CustomDivider label={"Certificates"} />
+
+        <Certificates />
 
         <Divider sx={{ my: "15px" }} />
 

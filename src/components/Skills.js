@@ -153,9 +153,9 @@ function Skills() {
             />
             <Divider variant="middle" component="li" />
             <CustomListItem
-              cAlt={"virtual-studio-icon"}
-              cSrc={"./img/icon-virtual-studio.png"}
-              cText={"Virtual Studio"}
+              cAlt={"visual-studio-icon"}
+              cSrc={"./img/icon-visual-studio.png"}
+              cText={"Visual Studio"}
             />
             <Divider variant="middle" component="li" />
             <CustomListItem

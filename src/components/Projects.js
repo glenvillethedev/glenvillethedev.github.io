@@ -189,7 +189,7 @@ function Projects() {
       </Paper>
 
       {/* PROJECT3 */}
-      {/* <Paper elevation={3} sx={{ p: 2 , width: '80%'}}>
+      <Paper elevation={3} sx={{ p: 2 , width: '80%'}}>
         <Grid container>
           <Grid
             size={{ xs: 12, sm: 5 }}
@@ -213,7 +213,7 @@ function Projects() {
                 margin: "5px",
                 borderRadius: "50%",
               }}
-              src="./img/logo-expenses-tracker.png"
+              src="./img/logo-expenses-tracker-admin.png"
               alt="expenses-tracker-admin-logo"
             />
           </Grid>
@@ -238,14 +238,15 @@ function Projects() {
                 alignItems: "center",
               }}
             >
-              <Chip label="reactJs" color="primary" size="small" />
+              <Chip label="reactjs" color="primary" size="small" />
               <Chip label="c#" color="primary" size="small" />
               <Chip label="aspdotnetcore" color="primary" size="small" />
               <Chip label="bootstrap" color="primary" size="small" />
               <Chip label="sqlserver" color="primary" size="small" />
             </Stack>
             <Typography sx={{ typography: { xs: "body2", sm: "body1" }, textAlign: "justify" }}>
-              This app is the admin panel for Expenses Tracker, built with ASP.NET Core Web API and ReactJS. It allows admins to manage users, monitor expenses, and oversee the platform efficiently. Designed for seamless control with a modern, responsive UI. 🚀📊
+              This app is the admin panel for Expenses Tracker, built with ASP.NET Core WebAPI and ReactJS. It allows administrators to manage users efficiently. 
+              It features JWT authentication with refresh tokens using ASP.NET Core Identity, enabling secure login and role-based access. 🚀📊
             </Typography>
             <Stack
               direction="row"
@@ -261,13 +262,15 @@ function Projects() {
                 variant="outlined"
                 size="small"
                 startIcon={<GitHubIcon />}
+                href="https://github.com/glenvillethedev/net-react-app"
+                target="_blank"
               >
                 Source Code
               </Button>
             </Stack>
           </Grid>
         </Grid>
-      </Paper> */}
+      </Paper>
 
     </Stack>
   );
